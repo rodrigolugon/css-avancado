@@ -1,0 +1,26 @@
+p:first-child{
+    color: aqua;
+}
+p:last-child{
+    color: orange;
+}
+
+p:not(.padrao) {
+    color: pink;
+}
+
+p:nth-child(odd) {
+    color: red;
+}
+
+li:nth-child(3n) {
+    background-color: orange;
+}
+
+li:nth-last-child(1) {
+    color: blueviolet;
+}
+
+p:only-child{
+    font-size: 30px;
+}

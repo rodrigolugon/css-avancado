@@ -1,0 +1,21 @@
+p::first-letter {
+    color: blue;
+}
+
+p::first-line {
+    background-color: orange;
+}
+
+li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+h2::before {
+    content: "teste 123";
+    content: url(./images/logo.png);
+}
+
+p::after {
+content: url(./images/logo.png);
+}
