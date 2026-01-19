@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; --> usamos flex-flow para substituir*/
+    flex-flow: row wrap;
+}
+
+.container div{
+    background-color: aqua;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
