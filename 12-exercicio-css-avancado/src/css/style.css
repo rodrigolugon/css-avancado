@@ -26,18 +26,19 @@ body {
 
 .menu {
     display: flex;
+    align-items: center;
     
 }
 
 .menu li a {
     padding: 10px 5px;
+    transition: 0.3s ease-in-out;
     margin: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .menu li a:hover {
     background-color: #5BC241;
-    color: #fff;
-    transition: 0.3s ease-in-out;
 }
 
 .menu li a.btn {
